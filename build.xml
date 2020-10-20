@@ -53,7 +53,7 @@
 <taskdef name="jmeter" classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask" />
 <jmeter jmeterhome="${jmeter.home}" resultlog="${jmeter.result.jtlName}">
 <!-- 声明要运行的脚本"*.jmx"指包含此目录下的所有jmeter脚本,includes里的文件也可以用逗号,隔开-->
-<testplans dir="${env.WORKSPACE}" includes=""*.jmx" />
+<testplans dir="${env.WORKSPACE}" includes=""*.jmx"/>
 
 <property name="jmeter.save.saveservice.output_format" value="xml"/>
 <property name="jmeter.save.saveservice.assertion_results" value="all"/>
