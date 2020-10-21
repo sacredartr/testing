@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="testing" default="run" basedir=".">
-    <taskdef resource="net/sf/antcontrib/antlib.xml"/>
+<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+　　<classpath>
+　  　<!-- ant-contrib-1.0b3.jar 的路径  -->
+　　　<pathelement location="${ant.dir}/lib/cpptasks-1.0b5.zip"/>
+　　</classpath>
+</taskdef>
     <tstamp>
         <format property="time" pattern="yyyyMMddhhmm" />
     </tstamp>
