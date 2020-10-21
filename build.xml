@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<project name="testing" default="run" basedir=".">
 <taskdef resource="net/sf/antcontrib/antcontrib.properties">
 　　<classpath>
 　  　<!-- （1）需要改成自己本地的 antcontrib 目录-->
