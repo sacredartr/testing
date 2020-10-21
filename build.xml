@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="testing" default="run" basedir=".">
-<taskdef resource="net/sf/antcontrib/antcontrib.properties">
-　　<classpath>
-　　　<pathelement location="/var/jenkins_home/apache-ant-1.9.15/lib/cpptasks-1.0b5.zip"/>
-　　</classpath>
-</taskdef>
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+　　	<classpath>
+　　　	<pathelement location="/var/jenkins_home/apache-ant-1.9.15/lib/cpptasks-1.0b5.zip"/>
+　　	</classpath>
+	</taskdef>
     <tstamp>
         <format property="time" pattern="yyyyMMddhhmm" />
     </tstamp>
