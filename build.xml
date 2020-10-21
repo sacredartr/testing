@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <taskdef resource="net/sf/antcontrib/antcontrib.properties">
 　　<classpath>
+　  　<!-- （1）需要改成自己本地的 antcontrib 目录-->
 　　　<pathelement location="${ant.dir}/lib/cpptasks-1.0b5.zip"/>
 　　</classpath>
 </taskdef>
