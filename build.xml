@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="testing" default="run" basedir=".">
-	<taskdef resource="net/sf/antcontrib/antcontrib.properties">
-　　	<classpath>
-　　　	<pathelement location="/var/jenkins_home/apache-ant-1.10.9/lib/ant-contrib.jar"/>
-　　	</classpath>
-	</taskdef>
+	<taskdef resource="net/sf/antcontrib/antlib.xml">
     <tstamp>
         <format property="time" pattern="yyyyMMddhhmm" />
     </tstamp>
