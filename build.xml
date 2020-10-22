@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="testing" default="run" basedir=".">
-	<taskdef resource="net/sf/antcontrib/antlib.xml">
+	<taskdef resource="net/sf/antcontrib/antlib.xml"/>
     <tstamp>
         <format property="time" pattern="yyyyMMddhhmm" />
     </tstamp>
