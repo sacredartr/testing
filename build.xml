@@ -2,7 +2,7 @@
 <project name="testing" default="run" basedir=".">
 	<taskdef resource="net/sf/antcontrib/antcontrib.properties">
 　　	<classpath>
-　　　	<pathelement location="/var/jenkins_home/apache-ant-1.10.9/lib/cpptasks-1.0b5.zip"/>
+　　　	<pathelement location="/var/jenkins_home/apache-ant-1.10.9/lib/ant-contrib.jar"/>
 　　	</classpath>
 	</taskdef>
     <tstamp>
